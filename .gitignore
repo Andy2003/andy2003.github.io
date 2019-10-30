@@ -10,3 +10,6 @@ Gemfile.lock
 
 # Photoshop Documents
 Preview.psd
+
+*.iml
+/.idea
