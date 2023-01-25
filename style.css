@@ -307,10 +307,12 @@ blockquote cite:before {
     color: orange
 }
 
+table.sectorKnowledge th,
 table.skills th {
     text-align: left;
 }
 
+table.sectorKnowledge th, table.sectorKnowledge td,
 table.skills th, table.skills td {
     padding: 1px 5px;
 }
@@ -320,6 +322,7 @@ table.skills th, table.skills td {
     font-size: 1rem
 }
 
+table.sectorKnowledge .name,
 table.skills .name {
     font-weight: bold;
     font-size: 1rem;
@@ -560,6 +563,10 @@ table.skills .name {
 
 }
 
+.industrialSector {
+    clear: both;
+    font-style: italic;
+}
 
 /****************
 *		LAPTOP
@@ -709,7 +716,6 @@ table.skills .name {
         /*display: none;*/
     }
 }
-
 
 
 .footer > div {
