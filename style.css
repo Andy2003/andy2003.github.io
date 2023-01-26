@@ -386,6 +386,11 @@ span.displaynone {
     display: none;
 }
 
+@media screen {
+    .print {
+        display: none;
+    }
+}
 /****************
 *		TABLET
 ****************/
