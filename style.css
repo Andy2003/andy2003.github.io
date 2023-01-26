@@ -138,7 +138,7 @@ a:hover {
 body {
     background: #fff;
     line-height: 1.6;
-    font-size: 13px;
+    font-size: 1rem;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -250,7 +250,7 @@ div.item:last-of-type {
 
 blockquote {
     font-family: Georgia, serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: italic;
     margin: 0 0 0.25em 0;
     padding: 0 0 0.35em 25px;
@@ -264,16 +264,16 @@ blockquote:before {
     display: block;
     padding-left: 0;
     content: "\201C";
-    font-size: 50px;
+    font-size: 3rem;
     position: absolute;
-    left: -10px;
-    top: -15px;
+    left: -0.75rem;
+    top: -1rem;
     color: #7a7a7a;
 }
 
 blockquote cite {
     color: #666;
-    font-size: 14px;
+    font-size: 0.9rem;
     display: block;
     margin-top: 5px;
 }
@@ -288,7 +288,7 @@ blockquote cite:before {
 }
 
 .motto {
-    font-size: 17px;
+    font-size: 1.2rem;
     color: grey;
 }
 
@@ -297,7 +297,7 @@ blockquote cite:before {
     color: gray;
     display: block;
     text-align: center;
-    letter-spacing: 5px;
+    letter-spacing: 0.3rem;
 }
 
 ul.work-experience {
@@ -395,20 +395,25 @@ span.displaynone {
         padding: 3em;
         margin: 1rem auto;
     }
+
+    .basic {
+        grid-column: 1 / span 2;
+    }
+
     .content {
         display: grid;
         grid-template-columns: 1fr 3fr;
-        row-gap: 16px;
+        row-gap: 1rem;
     }
 
     .content > .item2, .content > h2 {
         border-top: 1pt solid #ccc;
-        padding-top: 16px;
+        padding-top: 1rem;
         margin: 0;
     }
 
     .content > h2 {
-        padding-right: 16px;
+        padding-right: 1rem;
     }
 
 }
@@ -446,15 +451,19 @@ span.displaynone {
         page-break-after: avoid;
     }
 
+    .basic {
+        grid-column: 1 / span 2;
+    }
+
     .content {
         display: grid;
         grid-template-columns: 1fr 3fr;
-        row-gap: 16px;
+        row-gap: 1rem;
     }
 
     .content > .item2, .content > h2 {
         border-top: 1pt solid #ccc;
-        padding-top: 16px;
+        padding-top: 1rem;
         margin: 0;
     }
 
