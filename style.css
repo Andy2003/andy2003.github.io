@@ -314,6 +314,22 @@ ul.work-experience {
     text-align: center;
     border-radius: 10px;
 }
+.clickableBadge {
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.clickableBadge a {
+    color: black;
+    transition: all 0.2s ease-in-out;
+}
+.clickableBadge:hover {
+    box-shadow: 3px 2px 3px 0 rgb(0 0 0 / 20%);
+    border: 1px solid #404040;
+}
+.clickableBadge:hover a {
+    color: #EB5F51;
+    text-decoration: underline;
+}
 
 .position, .area, .institution {
     font-weight: 700;
