@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andreas Berger | Software Architect &amp; Technical Lead for scalable, data-intensive backend platforms</title>
+    <meta name="description" content="Freelance Software Architect & Technical Lead (19+ years exp). I help teams modernize and scale data-heavy platforms — from architecture to production.">
+    <meta name="robots" content="index, follow">
+
+    <link media="all" rel="stylesheet" href="../fonds.css">
+    <link media="all" rel="stylesheet" href="../nstyle.css">
+    <script src="../js/script.js" defer></script>
+
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <nav>
+            <a href="/" class="logo">Andreas Berger<span class="dot">.</span></a>
+            <div class="nav-links">
+                <a href="#expertise">How I help</a>
+                <a href="#work">Case Studies</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#contact" class="nav-contact">Contact</a>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <h1>Software Architect &amp; Technical Lead for scalable, data-intensive backend platforms</h1>
+                    <p class="hero-sub">
+                        I help engineering teams modernize and scale critical backend systems — reducing delivery risk in high-stakes migrations, platform modernization, and long-term operations.
+                    </p>
+                    <div class="cta-wrapper">
+                            <a href="https://calendly.com/berger-freelancer/15min" target="_blank"
+                               class="btn btn-primary">Book a 15-min intro call</a>
+
+                        <a href="#work" class="btn btn-outline">View Case Studies</a>
+                    </div>
+                </div>
+                <div class="profile-wrapper">
+                    <img src="../me.jpg"
+                         alt="Andreas Berger - Software Architect"
+                         class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="expertise">
+        <div class="container">
+            <div class="section-intro">
+                <h2>Technical leadership that delivers</h2>
+                <p>I help teams reduce delivery risk and build backend platforms they can confidently operate and evolve over time.</p><p>My work focuses on platform architecture, modernization initiatives, and hands-on technical leadership in complex, data-intensive systems. I work closely with engineering teams to translate architectural decisions into production-ready solutions.</p><p>I take responsibility across design, implementation, and deployment when technical clarity and execution quality matter most.</p>
+            </div>
+
+            <div class="grid-3">
+                    <article class="card">
+                        <h3>Platform Architecture &amp; Technical Leadership</h3>
+                        <p class="small">
+                            Designing scalable platform architectures with clear boundaries, reliability and observability. I help teams move from fragile systems to resilient, operable platforms.
+                        </p>
+                    </article>
+                    <article class="card">
+                        <h3>Modernization &amp; Migration</h3>
+                        <p class="small">
+                            De-risking critical migrations under time pressure — data, APIs and legacy modernization — without breaking delivery commitments.
+                        </p>
+                    </article>
+                    <article class="card">
+                        <h3>Graph &amp; AI-enabled Backend Systems</h3>
+                        <p class="small">
+                            I support teams in introducing AI-assisted capabilities into existing platforms in a pragmatic way. My focus is on realistic use cases, clean integration, and avoiding unnecessary complexity in production systems.
+                        </p>
+                    </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="case-section">
+        <div class="container">
+            <h2 class="section-title">Selected Projects</h2>
+
+                <article class="case-study">
+                    <div class="case-header">
+                        <div class="case-meta">Energy Utility · Regulatory Reporting · 2017-2025</div>
+                        <h3>Building a Regulatory Reporting Platform from Scratch</h3>
+                        <div>
+                                <span class="metric-badge">Platform Architecture</span>
+                                <span class="metric-badge">End-to-End Technical Ownership</span>
+                                <span class="metric-badge">Regulatory Reporting</span>
+                        </div>
+                    </div>
+                    <div class="case-body">
+                        <h4>The Challenge</h4>
+                        <p>Regulatory reporting obligations for electricity, heat, and gas consumption were largely <strong>manual</strong>, requiring significant personnel effort and causing <strong>high operational costs</strong>. The existing process focused solely on generating <strong>mandatory reports for authorities</strong>, without enabling any downstream business use cases from the collected data. As the number of metering devices grew, the approach was no longer <strong>economically sustainable</strong>.</p>
+                        <h4>The Intervention</h4>
+                        <p>As Tech Lead with <strong>end-to-end responsibility</strong>, I designed the <strong>overall platform architecture</strong> and guided its implementation. I defined clear system boundaries across ingestion, normalization, aggregation, and reporting, ensuring <strong>independent scalability</strong> and <strong>long-term extensibility</strong>.</p>
+                        <h4>The Outcome</h4>
+                        <p><strong>Manual reporting workflows were eliminated</strong> and replaced by automated, on-demand generation of <strong>authority-facing regulatory reports</strong>. The platform established a <strong>scalable data foundation</strong> that fulfills reporting obligations while enabling <strong>additional business and analytics use cases</strong> beyond mandatory reporting.</p>
+                        <h4>Stack</h4>
+                        <p class="muted-small">Spring Boot · Kubernetes · MQTT · Neo4j · Google Cloud Pub/Sub · Docker · OpenAPI · React</p>
+                    </div>
+                </article>
+                <article class="case-study">
+                    <div class="case-header">
+                        <div class="case-meta">Energy / Data · 2023-2024</div>
+                        <h3>Enabling a Strategic Database Decision Under Delivery Pressure</h3>
+                        <div>
+                                <span class="metric-badge">Architecture Decision-Making</span>
+                                <span class="metric-badge">Migration Risk Reduction</span>
+                                <span class="metric-badge">Graph Data Modeling</span>
+                        </div>
+                    </div>
+                    <div class="case-body">
+                        <h4>The Challenge</h4>
+                        <p>A platform migration required replacing an existing ArangoDB-based solution, which was no longer viable from a <strong>cost and complexity perspective</strong>. The strategic decision was whether to adopt a <strong>graph-native database (Neo4j)</strong> or build a more complex alternative. The decision had to be validated <strong>quickly</strong> to avoid delivery delays.</p>
+                        <h4>The Intervention</h4>
+                        <p>I assessed <strong>architectural options under delivery pressure</strong> by designing and implementing a <strong>focused proof of concept</strong> for the platform’s core use cases. I supported the team by translating existing data access logic into a <strong>production-ready graph-based model</strong>.</p>
+                        <h4>The Outcome</h4>
+                        <p>The proof of concept enabled a <strong>fast and confident architectural decision</strong>. <strong>Migration risk was significantly reduced</strong>, allowing the platform transition to be completed <strong>within the committed timeline</strong> without unnecessary complexity.</p>
+                        <h4>Stack</h4>
+                        <p class="muted-small">Neo4j · Spring Boot · Cypher · ArangoDB · JSON Schema · JUnit</p>
+                    </div>
+                </article>
+                <article class="case-study">
+                    <div class="case-header">
+                        <div class="case-meta">Telecommunications · pre-cloud era</div>
+                        <h3>Replacing a Costly Legacy CMS Without a Full Rewrite</h3>
+                        <div>
+                                <span class="metric-badge">Legacy Modernization Strategy</span>
+                                <span class="metric-badge">Cost &amp; Risk Reduction</span>
+                                <span class="metric-badge">Large-scale System Design</span>
+                        </div>
+                    </div>
+                    <div class="case-body">
+                        <h4>The Challenge</h4>
+                        <p>A legacy CMS caused <strong>high and growing operational costs</strong> and had to be decommissioned. The proposed <strong>full rewrite</strong> exceeded timeline and budget constraints and introduced <strong>additional licensing risk</strong>, putting the project’s success at risk.</p>
+                        <h4>The Intervention</h4>
+                        <p>I <strong>challenged the rewrite-based approach</strong> and designed an alternative solution that <strong>preserved existing business logic</strong>. By enabling legacy templates to run in a <strong>modern application environment</strong>, I removed the dependency on the original runtime.</p>
+                        <h4>The Outcome</h4>
+                        <p>A <strong>full rewrite was avoided</strong>, significantly reducing migration effort and cost. The legacy system was decommissioned <strong>on time and within budget</strong>, without introducing <strong>new vendor dependencies</strong>.</p>
+                        <h4>Stack</h4>
+                        <p class="muted-small">Java · Spring Framework · TCL Interpreter · Tomcat · Hibernate · Hazelcast</p>
+                    </div>
+                </article>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <h2>What clients say</h2>
+            <div class="testimonials-grid">
+                    <div class="quote-card">
+                        <p class="quote-text">"Andreas combines pragmatic problem-solving with a strong overview of complex initiatives. He consistently delivers results and performs at a very high level."</p>
+                        <div class="quote-author">Florian P.</div>
+                        <cite class="quote-role">
+                            Client · Platform Project
+                        </cite>
+                    </div>
+                    <div class="quote-card">
+                        <p class="quote-text">"Andreas played a key role in delivering complex features under pressure. His technical expertise and willingness to share knowledge made a measurable difference to the team’s success."</p>
+                        <div class="quote-author">Philipp K.</div>
+                        <cite class="quote-role">
+                            Product Owner · Energy Platform
+                        </cite>
+                    </div>
+                    <div class="quote-card">
+                        <p class="quote-text">"Andreas quickly analyzes complex problems and delivers robust, future-proof solutions. His architectural thinking significantly improves system quality."</p>
+                        <div class="quote-author">Annika K. &amp; Atul M.</div>
+                        <cite class="quote-role">
+                            Engineering Team · Distributed Systems
+                        </cite>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="about">
+        <div class="container container--narrow">
+            <h2>About Andreas Berger</h2>
+            <div class="about-text">
+                    <p>I am a <strong>Software Architect and Technical Lead</strong> with over <strong>19 years of hands-on experience</strong> building and evolving complex backend platforms.</p>
+                    <p>I work with teams facing <strong>high delivery pressure</strong>, legacy constraints, or growing platform complexity. My focus is on creating clear architectural direction, reducing technical risk, and enabling teams to deliver reliably without sacrificing long-term system quality.</p>
+                    <p>Unlike purely advisory roles, I stay <strong>deeply involved in implementation</strong>. I believe architecture only creates value when it survives real-world constraints, production traffic, and day-to-day operations.</p>
+                    <p>My work spans platform architecture, modernization and migration initiatives, and the introduction of data- and AI-enabled capabilities in production environments—always with a strong emphasis on maintainability, operability, and team ownership.</p>
+                <div class="button-row">
+                            <a href="https://github.com/Andy2003" target="_blank"
+                               class="btn btn-outline btn-outline--no-left btn-small">
+                                    GitHub:
+                                Andy2003
+                            </a>
+                            <a href="https://medium.com/@andy.2003" target="_blank"
+                               class="btn btn-outline btn-outline--no-left btn-small">
+                                    Medium:
+                                @andy.2003
+                            </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tech">
+        <div class="container">
+            <h2>Typical toolset</h2>
+            <p>A selection of tools I use to build production-grade systems.</p>
+
+            <div class="mt-2rem">
+                    <h4 class="subheading">Languages &amp; Core</h4>
+                    <div class="tech-grid tech-grid--mb2">
+                            <div class="tech-item">Java</div>
+                            <div class="tech-item">Kotlin</div>
+                            <div class="tech-item">TypeScript</div>
+                            <div class="tech-item">Spring Boot</div>
+                    </div>
+                    <h4 class="subheading">Data &amp; AI</h4>
+                    <div class="tech-grid tech-grid--mb2">
+                            <div class="tech-item">Neo4j (Graph DB)</div>
+                            <div class="tech-item">OpenAPI</div>
+                            <div class="tech-item">GraphQL</div>
+                            <div class="tech-item">Langchain &amp; RAG</div>
+                    </div>
+                    <h4 class="subheading">Cloud &amp; DevOps</h4>
+                    <div class="tech-grid">
+                            <div class="tech-item">Kubernetes</div>
+                            <div class="tech-item">Docker</div>
+                            <div class="tech-item">Google Cloud</div>
+                            <div class="tech-item">Gitlab Pipelines</div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <div class="container">
+            <h2>Let&#39;s discuss your next milestone.</h2>
+            <div class="contact-desc">
+                <p>Next availability: <strong>Dec 2025</strong> (planning now). If you're heading into a migration or critical milestone, let's align early..</p><p>Remote-first (EU time zones), English/German</p><p>Available for architecture reviews, migration leadership, and hands-on technical lead roles.</p>
+            </div>
+            <div class="flex-row">
+                    <a href="https://calendly.com/berger-freelancer/15min" target="_blank"
+                       class="btn btn-primary btn-contact">Book a 15-min intro call</a>
+                <a class="btn btn-primary btn-contact"
+                   data-mail-user-rev="saerdna"
+                   data-mail-domain-rev="moc.recnaleerf-regreb"
+                   data-mail-subject="Request via website"
+                   data-mail-visible="Email Me">Email Me</a>
+            </div>
+
+            <p class="contact-info">
+                <span class="contact-email"
+                      data-mail-user-rev="saerdna"
+                      data-mail-domain-rev="moc.recnaleerf-regreb">email</span>
+                <br/>
+
+                <span class="phone">
+                <a class="link-like"
+                   href="tel:+491747893526">+49 174 - 7893526</a>
+                </span>
+
+                <br/>
+                Radebeul, Germany
+            </p>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <div class="footer-row">
+            <div>
+                <h4>Andreas Berger</h4>
+                <div class="footer-subtext">
+                    Platform Architecture · Modernization · Data-driven Systems
+                </div>
+            </div>
+            <div class="footer-right">
+                    <nav class="footer-nav">
+                            <a href="https://github.com/Andy2003" target="_blank" class="social-link">GitHub</a>
+                            <a href="https://stackoverflow.com/users/1666829/andreas-berger" target="_blank" class="social-link">Stack Overflow</a>
+                            <a href="https://medium.com/@andy.2003" target="_blank" class="social-link">Medium</a>
+                            <a href="https://www.xing.com/profile/Andreas_Berger26" target="_blank" class="social-link">Xing</a>
+                    </nav>
+                <p class="footer-copy">
+                    &copy; 2025 Andreas Berger. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
