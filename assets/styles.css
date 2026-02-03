@@ -81,6 +81,12 @@ nav {
     text-decoration: none;
 }
 
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
 .nav-links {
     display: flex;
     gap: 1.5rem;
@@ -96,6 +102,30 @@ nav {
 
 .nav-links a:hover, .nav-links a.active {
     color: var(--text-main);
+}
+
+.lang-switch {
+    display: flex;
+    gap: 0.5rem;
+    border-left: 1px solid var(--border);
+    padding-left: 1.5rem;
+    margin-left: 0.5rem;
+}
+
+.lang-link {
+    font-weight: 600;
+    font-size: 0.8rem !important;
+    color: var(--secondary) !important;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.lang-link:hover {
+    color: var(--text-main) !important;
+}
+
+.mobile-only {
+    display: none;
 }
 
 .btn {
@@ -514,6 +544,20 @@ footer {
 @media (max-width: 768px) {
     .nav-links {
         display: none;
+    }
+
+    .mobile-only {
+        display: flex;
+    }
+
+    .desktop-only {
+        display: none;
+    }
+
+    .lang-switch {
+        border-left: none;
+        padding-left: 0;
+        margin-left: 0;
     }
 
     .metrics {
